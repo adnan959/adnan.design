@@ -8,7 +8,8 @@ export default function DesignLibrary() {
   return (
     <CaseStudyLayout
       title="Design Library"
-      byline="Meta &bull; 2019"
+      tags={['Litmus', '2019']}
+      variant="v2"
     >
       <p>Coming soon.</p>
     </CaseStudyLayout>

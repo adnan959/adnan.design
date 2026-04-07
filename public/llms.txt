@@ -1,0 +1,56 @@
+# Adnan Khan — Staff Product Designer
+
+> Portfolio: https://adnan.design
+> LinkedIn: https://linkedin.com/in/adnan959
+> GitHub: https://github.com/adnan959
+> Email: adnan959@gmail.com
+
+## About
+
+Adnan Khan is a Staff Product Designer (IC7) at Meta with over 16 years of experience building digital products that scale. He designs enterprise platforms, zero-to-one products, and cross-platform experiences across web, mobile, and immersive tech. His work bridges vision, strategy and execution.
+
+At Meta, Adnan has led high-impact initiatives across productivity, collaboration, and immersive technology. He has worked on Meta Portal, Horizon Workrooms, Workplace Events, and Ambient Coworking with Avatars. Previously, he was a design lead at Litmus where he redesigned their application platform, built a Chrome Extension, designed a Slack integration, created a scalable design system, and led creative direction for the Litmus Live conference.
+
+## Work Experience
+
+### Meta (2019–present) — Staff Product Designer IC7
+- Workplace Events: Design lead for organisational comms platform, replacing "Workplace Live" with Event Studio for multiplayer broadcasts, engagement tools, and post-production features.
+- Ambient Coworking: Invented a lightweight coworking experience using avatars on Meta Portal. Filed a patent. Cross-org adoption across Portal, WWW, and mobile surfaces.
+- Meta Horizon Workrooms: Designed productivity and collaboration experiences in VR including solo desks, meeting rooms, whiteboards, and presentation layouts.
+- Meta Portal: Led strategic shift of Portal from family device to workplace essential. Designed proactive calendar cards and one-tap meetings. Contributed to 22% of Portal's total device sales during peak.
+- Design Library: Built scalable component library for enterprise products.
+
+### Litmus (2015–2018) — Sr. Product Designer / Design Lead
+- Redesigning the Litmus Application: Co-led platform redesign after 200x speed improvement (20 min to 6 sec preview rendering). Introduced Checklist QA, integrated previews into Builder, reskinned Analytics.
+- Building a Design System: Migrated design assets from Photoshop to Sketch. Scaled design team from 2 to 12 designers. Mapped components 1:1 with engineering.
+- Designing a Slack App: Led design of Slack integration for Proof notifications, Analytics reports, Spam alerts, and threaded responses.
+- Building a Chrome Extension: Designed extension bringing email testing into ESPs and local development workflows. Used by 10,000+ users.
+- Designing for a Conference: Led creative direction and web design for Litmus Live (formerly The Email Design Conference) across 2016 and 2017 including rebranding.
+
+### Earlier Career
+Worked with startups, agencies, and global brands including Placester, InStyle, SapientNitro, and Harvard Business School.
+
+## Design Philosophy
+- Good design scales. A strong system helps teams move faster and stay aligned.
+- Enterprise tools can be elegant. Complexity should never come at the cost of usability.
+- Zero-to-one work requires curiosity and patience. It's not linear, and that's okay.
+- Mentorship is part of the job. Sharing knowledge helps grow great teams.
+
+## Portfolio Pages
+- / — Homepage with overview of all case studies
+- /about — Bio, career overview, and design beliefs
+- /workplace-events — Redesigning Workplace Events for Organisational Comms (Meta, 2023-24)
+- /ambient-coworking — Ambient Coworking with Avatars on Meta Portal (Meta, 2022)
+- /horizon-workrooms — Meta Horizon Workrooms VR productivity (Meta, 2022)
+- /meta-portal — Transforming Portal into a productivity hub (Meta, 2020-22)
+- /design-library — Design Library (Litmus, 2019)
+- /redesigning-the-litmus-application — Platform redesign after 200x speed gain (Litmus, 2015-17)
+- /building-a-design-system — Scaling design operations at Litmus (Litmus, 2018)
+- /designing-a-slack-app — Slack integration for email workflows (Litmus, 2018)
+- /building-a-chrome-extension — Email testing in the browser (Litmus, 2018)
+- /designing-for-a-conference — Litmus Live conference branding and web (Litmus, 2016-17)
+
+## Technical Details
+- Built with Next.js (App Router) and deployed on Vercel
+- Styled with SCSS (Proxima Nova + Lora fonts)
+- Source: https://github.com/adnan959/adnan.design

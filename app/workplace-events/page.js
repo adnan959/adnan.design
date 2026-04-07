@@ -1,7 +1,7 @@
 import CaseStudyLayout from '../components/CaseStudyLayout';
 
 export const metadata = {
-  title: 'Redesigning Workplace Events for Organisational Comms | Adnan Khan',
+  title: 'Workplace Events | Adnan Khan | Product Designer',
 };
 
 export default function WorkplaceEvents() {

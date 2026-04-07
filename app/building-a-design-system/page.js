@@ -9,7 +9,8 @@ export default function BuildingADesignSystem() {
   return (
     <CaseStudyLayout
       title="Building a Design System"
-      byline="Design Lead &bull; UX &amp; IA / Design Ops &bull; 2018"
+      tags={['Design Lead', 'UX & UI / Design Ops', '2018']}
+      variant="v2"
     >
       <div className="image-full">
         <div className="video-container" style={{ borderRadius: '4px', overflow: 'hidden' }}>
