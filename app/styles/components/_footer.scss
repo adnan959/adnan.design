@@ -1,0 +1,78 @@
+footer {
+  color: $textColor;
+  border-top: 1px solid #EBECF0;
+  padding: 40px 0 120px 0;
+  font-size: 14px;
+  font-weight: 600;
+
+  a {
+    color: $textColor;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .about {
+    display: none;
+
+    @media #{$breakpoint-tablet} {
+      display: inline;
+    }
+  }
+
+  .built {
+    text-align: center;
+
+    @media #{$breakpoint-tablet} {
+      text-align: right;
+    }
+  }
+}
+
+.social-icons {
+  margin: 16px 0;
+  text-align: center;
+
+  @media #{$breakpoint-tablet} {
+    margin: 0;
+    text-align: left;
+    position: relative;
+    left: -8px;
+    top: -8px;
+  }
+
+  a {
+    @include transition(all .1s ease);
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  svg {
+    width: 36px;
+    height: 36px;
+  }
+
+  #linkedin-icon {
+    fill: #0976b4;
+  }
+
+  #twitter-icon {
+    fill: #55acee;
+  }
+
+  #dribbble-icon {
+    fill: #ea4c89;
+  }
+
+  #github-icon {
+    fill: #333333;
+  }
+
+  #instagram-icon {
+    fill: #e4405f;
+  }
+}

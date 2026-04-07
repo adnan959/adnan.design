@@ -1,0 +1,18 @@
+// Variables & Mixins
+@import './styles/variables';
+
+// Core
+@import './styles/typography';
+@import './styles/base';
+
+// Components
+@import './styles/components/header';
+@import './styles/components/footer';
+
+// Views
+@import './styles/views/homepage';
+@import './styles/views/post';
+
+// Plugins
+@import './styles/plugins/flexboxgrid.css';
+@import './styles/plugins/animate.css';

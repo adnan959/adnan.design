@@ -1,0 +1,161 @@
+/* header */
+
+.header {
+  @include clearfix;
+  border-bottom: 1px solid $borderColor;
+  padding: 40px 0;
+  display: block;
+  width: 100%;
+  z-index: 3;
+
+  .logo {
+    float: left;
+    line-height: 8px;
+
+    a {
+      color: #000;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+    top: 16px;
+
+    li {
+
+      a {
+        color: $textColorLight;
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+
+        &:hover {
+          color: $titleColor;
+        }
+      }
+    }
+  }
+
+  .menu {
+    @include transition(all .5s ease);
+    clear: both;
+    max-height: 0;
+  }
+
+  .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 8px 0;
+    position: relative;
+    user-select: none;
+
+    .navicon {
+      @include transition(all .2s ease);
+      background: $titleColor;
+      display: block;
+      height: 2px;
+      position: relative;
+      width: 18px;
+
+      &:before,
+      &:after {
+        background: $titleColor;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        @include transition(all .2s ease);
+        width: 100%;
+      }
+
+      &:before {
+        top: 5px;
+      }
+
+      &:after {
+        top: -5px;
+      }
+    }
+  }
+
+  .menu-btn {
+    display: none;
+
+    &:checked ~ .menu {
+      max-height: 240px;
+    }
+
+    &:checked ~ .menu-icon .navicon {
+      background: transparent;
+    }
+
+    &:checked ~ .menu-icon .navicon:before {
+      transform: rotate(-45deg);
+    }
+
+    &:checked ~ .menu-icon .navicon:after {
+      transform: rotate(45deg);
+    }
+
+    &:checked ~ .menu-icon:not(.steps) .navicon:before,
+    &:checked ~ .menu-icon:not(.steps) .navicon:after {
+      top: 0;
+    }
+  }
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header {
+    ul {
+      top: 0;
+
+      li {
+        float: left;
+        margin-left: 32px;
+
+        a {
+          padding: 0;
+        }
+      }
+    }
+
+    .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+
+    .menu-icon {
+      display: none;
+    }
+  }
+}
+
+.homepage,
+.work {
+  .work-link a {
+    font-weight: 800;
+    color: #000;
+  }
+}
+
+.about {
+  .about-link a {
+    font-weight: 800;
+    color: #000;
+  }
+}
