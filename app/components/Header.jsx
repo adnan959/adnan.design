@@ -13,13 +13,13 @@ export default function Header() {
 
         <ul className="menu">
           <li className="work-link">
-            <Link href="/#work">Work</Link>
+            <Link href="/">Work</Link>
           </li>
           <li className="about-link">
             <Link href="/about">About</Link>
           </li>
-          <li className="contact-link">
-            <a href="mailto:adnan959@gmail.com">Contact</a>
+          <li>
+            <a href="https://www.linkedin.com/in/adnan959/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </li>
         </ul>
       </div>

@@ -10,37 +10,43 @@ export default function About() {
     <div className="about">
       <Header />
 
-      <div className="post about">
-        <div className="title">
-          <h1>About</h1>
-          <div className="byline">A designer living in, fully remote since 2014. Sometimes I travel.</div>
+      <div className="post post-v2 about">
+        <div className="container">
+          <div className="title">
+            <h1>About</h1>
+            <div className="subtitle">I design enterprise platforms, zero to one products, and cross platform experiences across web, mobile, and immersive tech.</div>
+          </div>
         </div>
 
-        <p>Hi! I&apos;m Adnan, a product designer based out of the United Kingdom. Currently I&apos;m a Design Lead at Litmus focused on designing enterprise class software.</p>
+        <div className="image-full">
+          <img src="/images/about/meta-way-team.jpg" alt="Adnan and team at Meta headquarters, Hacker Way" />
+        </div>
 
-        <p>As a designer, I&apos;m a strong advocate for the user and believe in finding solutions that solve actual user problems. I favor whiteboards to design tools and avoid solutioning until I&apos;ve fully understood a problem space. Discovery is critical to my process, as a result I&apos;ll often be found talking to customers, internal stakeholders and scrum owners.</p>
+        <h2>Overview</h2>
 
-        <p>In the past I&apos;ve worked for several startups and brands including Placester, InStyle, SapientNitro, Harvard Business School.</p>
+        <p>Hi, I&apos;m Adnan. I&apos;m a product designer, design strategist, and systems thinker with over 16 years of experience building digital products that scale.</p>
 
-        <p>I&apos;m self taught and have been designing since I was 16 years old, what started off as a hobby quickly turned into a full-time career path. I&apos;ve embraced working remotely since 2014, as a result you will often find me behind the camera of a Loom recording, talking to customers, sketching out ideas or running design sprints within scrum teams together - all remotely!</p>
+        <p>Currently, I&apos;m a Staff Product Designer (IC7) at Meta, where I&apos;ve led high-impact initiatives across productivity, collaboration, and immersive technologies. My work includes enterprise-grade platforms, zero-to-one product launches, and multi-surface design across web, mobile, and XR.</p>
 
-        <p>I&apos;ve worked across several cross-functional Agile teams striving for continuous improvement and incrementally shipping product. I value effective communication and strong collaboration. I strongly believe that teams do their best work when they solve problems together. As a designer, I try to bring people together on a shared goal.</p>
+        <p>At Meta, I helped transform Portal from a family device into a work-first productivity tool. I led design for features like one-tap meetings, proactive notifications, and calendar integrations. These directly contributed to 22 percent of Portal&apos;s total device sales during its peak. I also invented Ambient Coworking with Avatars, a patent-pending feature that offered a new, low-friction way to connect using avatars in distributed teams.</p>
 
-        <p>Outside of work, I enjoy talking about cars, technology and sometimes travel. My most recent adventure took me through Europe, where I visited six countries across two weeks.</p>
+        <div className="image-full">
+          <img src="/images/about/speaking.png" alt="Adnan speaking at design conferences" />
+        </div>
 
-        <ul className="linksList">
-          <li>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/adnan959/">Find me on LinkedIn</a>
-          </li>
-          <li>
-            <a target="_blank" rel="noopener noreferrer" href="mailto:adnan959@gmail.com">Get in touch over Email</a>
-          </li>
-          <li>
-            <a target="_blank" rel="noopener noreferrer" href="https://dribbble.com/adnankhan">I post my latest work on Dribbble</a>
-          </li>
-          <li>
-            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/adnan959">Or simply say a hello on Twitter!</a>
-          </li>
+        <p>Beyond hands-on design, I&apos;ve collaborated with senior leadership to define company-wide product and design strategy. I helped unify work products across teams by introducing principles that clarified direction, increased team velocity, and improved morale. This work was presented live to over 2,000 employees across the company.</p>
+
+        <p>Previously, I led design at Litmus, where I created the Design Library. This helped email developers build and manage reusable components, improving retention and unlocking a new revenue stream. Earlier in my career, I worked with startups, agencies, and global brands including Harvard Business School and InStyle.</p>
+
+        <p>Whether I&apos;m designing interfaces, shaping product direction, or mentoring others, I focus on turning complexity into clarity and delivering meaningful, measurable impact.</p>
+
+        <h2>A few things I believe in</h2>
+
+        <ul className="bulletedList">
+          <li>Good design scales. A strong system helps teams move faster and stay aligned.</li>
+          <li>Enterprise tools can be elegant. Complexity should never come at the cost of usability.</li>
+          <li>Zero-to-one work requires curiosity and patience. It&apos;s not linear, and that&apos;s okay.</li>
+          <li>Mentorship is part of the job. Sharing knowledge helps grow great teams.</li>
         </ul>
       </div>
 
