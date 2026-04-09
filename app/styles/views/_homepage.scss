@@ -1,6 +1,48 @@
 .fold {
   background: $homepageColor;
   overflow: hidden;
+  position: relative;
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+
+    .layer {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(100px);
+      will-change: transform;
+    }
+
+    .layer-1 {
+      top: -20%;
+      left: -10%;
+      width: 60%;
+      height: 80%;
+      background: radial-gradient(circle, #DCE9FC 0%, rgba(220, 233, 252, 0) 70%);
+      animation: heroDrift1 15s ease-in-out infinite alternate;
+    }
+
+    .layer-2 {
+      top: 10%;
+      right: -15%;
+      width: 55%;
+      height: 75%;
+      background: radial-gradient(circle, #CEDEF8 0%, rgba(206, 222, 248, 0) 65%);
+      animation: heroDrift2 17s ease-in-out infinite alternate;
+    }
+
+    .layer-3 {
+      bottom: -25%;
+      left: 25%;
+      width: 55%;
+      height: 80%;
+      background: radial-gradient(circle, #E4EEFD 0%, rgba(228, 238, 253, 0) 70%);
+      animation: heroDrift3 14s ease-in-out infinite alternate;
+    }
+  }
 }
 
 .homepage {
@@ -13,14 +55,15 @@
   color: $titleColor;
   position: relative;
   width: 100%;
-  padding: 60px 0 80px 0;
+  padding: 60px 0 140px 0;
 
   @media #{$breakpoint-tablet} {
-    padding: 80px 0 100px 0;
+    padding: 80px 0 200px 0;
   }
 
   .container {
     position: relative;
+    z-index: 1;
   }
 
   .greeting {
@@ -76,6 +119,47 @@
         font-size: 20px;
       }
     }
+  }
+
+  .hero-credibility {
+    font-family: $sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: $textColorLight;
+    margin: 24px 0 0 0;
+    max-width: 863px;
+
+    @media #{$breakpoint-tablet} {
+      font-size: 20px;
+    }
+
+    a {
+      color: $textColorLight;
+      text-decoration: underline;
+
+      &:hover {
+        color: $titleColor;
+      }
+    }
+  }
+}
+
+@keyframes heroDrift1 {
+  0%   { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(16%, 12%) scale(1.15); }
+}
+@keyframes heroDrift2 {
+  0%   { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(-14%, 16%) scale(1.2); }
+}
+@keyframes heroDrift3 {
+  0%   { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(10%, -16%) scale(0.88); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero .hero-bg .layer {
+    animation: none !important;
   }
 }
 
@@ -150,6 +234,19 @@
 
           &:before {
             display: none;
+          }
+        }
+
+        .description {
+          font-family: $sans-serif;
+          font-size: 15px;
+          line-height: 1.5;
+          color: $textColorLight;
+          font-weight: 400;
+          margin: 14px 0 4px 0;
+
+          @media #{$breakpoint-tablet} {
+            font-size: 16px;
           }
         }
       }

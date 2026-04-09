@@ -7,13 +7,13 @@
 
 ## About
 
-Adnan Khan is a Staff Product Designer (IC7) at Meta with over 16 years of experience building digital products that scale. He designs enterprise platforms, zero-to-one products, and cross-platform experiences across web, mobile, and immersive tech. His work bridges vision, strategy and execution.
+Adnan Khan is a Staff Product Designer at Meta with over 16 years of experience building digital products that scale. He designs enterprise platforms, zero-to-one products, and cross-platform experiences across web, mobile, and immersive tech. His work bridges vision, strategy and execution.
 
 At Meta, Adnan has led high-impact initiatives across productivity, collaboration, and immersive technology. He has worked on Meta Portal, Horizon Workrooms, Workplace Events, and Ambient Coworking with Avatars. Previously, he was a design lead at Litmus where he redesigned their application platform, built a Chrome Extension, designed a Slack integration, created a scalable design system, and led creative direction for the Litmus Live conference.
 
 ## Work Experience
 
-### Meta (2019–present) — Staff Product Designer IC7
+### Meta (2019–present) — Staff Product Designer
 - Workplace Events: Design lead for organisational comms platform, replacing "Workplace Live" with Event Studio for multiplayer broadcasts, engagement tools, and post-production features.
 - Ambient Coworking: Invented a lightweight coworking experience using avatars on Meta Portal. Filed a patent. Cross-org adoption across Portal, WWW, and mobile surfaces.
 - Meta Horizon Workrooms: Designed productivity and collaboration experiences in VR including solo desks, meeting rooms, whiteboards, and presentation layouts.

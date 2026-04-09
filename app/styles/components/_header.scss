@@ -10,13 +10,27 @@
 
   .logo {
     float: left;
-    line-height: 8px;
+    margin: 0;
+    line-height: 1;
 
     a {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
       color: #000;
       text-decoration: none;
       font-size: 24px;
       font-weight: 600;
+      line-height: 1;
+    }
+
+    .logo-avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      flex-shrink: 0;
     }
   }
 
@@ -120,6 +134,16 @@
 
 @media (min-width: 48em) {
   .header {
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      float: none;
+    }
+
     ul {
       top: 0;
 
@@ -135,8 +159,9 @@
 
     .menu {
       clear: none;
-      float: right;
+      float: none;
       max-height: none;
+      margin: 0;
     }
 
     .menu-icon {

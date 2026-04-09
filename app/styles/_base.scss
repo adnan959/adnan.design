@@ -1,5 +1,7 @@
 html {
   scroll-behavior: smooth;
+  background: #ffffff;
+  color-scheme: light;
 }
 
 body {
@@ -7,6 +9,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: $sans-serif;
   margin: 0;
+  background: #ffffff;
+  color: $textColor;
 }
 
 .container {

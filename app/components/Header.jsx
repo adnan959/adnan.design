@@ -5,7 +5,10 @@ export default function Header() {
     <header className="header">
       <div className="container">
         <h1 className="logo">
-          <Link href="/">Adnan Khan</Link>
+          <Link href="/">
+            <img src="/images/adnan-avatar.jpeg" alt="" className="logo-avatar" aria-hidden="true" />
+            <span>Adnan Khan</span>
+          </Link>
         </h1>
 
         <input className="menu-btn" type="checkbox" id="menu-btn" />
